@@ -1,0 +1,52 @@
+{
+    "name": "hh-new-template",
+    "version": "1.0.0",
+    "description": "hh template",
+    "main": "index.js",
+    "scripts": {
+        "start": "gulp --debug --sourcemap=true",
+        "build": "gulp build",
+        "make": "node makeResultFile.js"
+    },
+    "author": "axperien",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "autoprefixer": "8.6.2",
+        "browser-sync": "2.24.4",
+        "clean-html": "^1.5.0",
+        "cssnano": "3.10.0",
+        "emitty": "1.4.0",
+        "gulp": "4.0.0",
+        "gulp-babel": "^8.0.0",
+        "gulp-beautify": "^3.0.0",
+        "gulp-debug": "4.0.0",
+        "gulp-if": "2.0.2",
+        "gulp-imagemin": "4.1.0",
+        "gulp-json-srv": "^1.2.0",
+        "gulp-load-plugins": "1.5.0",
+        "gulp-newer": "1.4.0",
+        "gulp-notify": "3.2.0",
+        "gulp-plumber": "1.2.0",
+        "gulp-postcss": "7.0.1",
+        "gulp-rename": "1.2.3",
+        "gulp-replace": "1.0.0",
+        "gulp-rigger": "^0.5.8",
+        "gulp-sass": "^4.0.1",
+        "gulp-sourcemaps": "2.6.4",
+        "gulp-svgmin": "1.2.4",
+        "imagemin-mozjpeg": "^8.0.0",
+        "merge-stream": "1.0.1",
+        "postcss-reporter": "5.0.0",
+        "postcss-scss": "1.0.5",
+        "posthtml-beautify": "^0.2.6",
+        "vinyl-buffer": "1.0.1",
+        "yargs": "11.0.0"
+    },
+    "dependencies": {
+        "babel-polyfill": "6.26.0",
+        "beautify": "0.0.8",
+        "html-formatter": "^0.1.9"
+    }
+}

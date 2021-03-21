@@ -1,0 +1,129 @@
+{
+    "News": [
+    {
+        "title": "Новость 1",
+        "author": "Автор 1",
+        "date": "01.01.2000",
+        "link": "www.google.com",
+        "watched": "false"
+    },
+    {
+        "title": "Новость 2",
+        "author": "Автор 2",
+        "date": "02.01.2000",
+        "link": "www.google.com",
+        "watched": "true"
+    },
+    {
+        "title": "Новость 3",
+        "author": "Автор 3",
+        "date": "01.01.2000",
+        "link": "www.google.com",
+        "watched": "false"
+    },
+    {
+        "title": "Новость 4",
+        "author": "Автор 4",
+        "date": "01.01.2000",
+        "link": "www.google.com",
+        "watched": "false"
+    },
+    {
+        "title": "",
+        "author": "Автор 5",
+        "date": "01.01.2000",
+        "link": "www.google.com",
+        "watched": "false"
+    },
+    {
+        "title": "Новость 1",
+        "author": "Автор 1",
+        "date": "01.01.2000",
+        "link": "www.google.com",
+        "watched": "false"
+    },
+    {
+        "title": "Новость 2",
+        "author": "Автор 2",
+        "date": "02.01.2000",
+        "link": "www.google.com",
+        "watched": "false"
+    },
+    {
+        "title": "Новость 3",
+        "author": "Автор 3",
+        "date": "01.01.2000",
+        "link": "www.google.com",
+        "watched": "false"
+    },
+    {
+        "title": "Новость 4",
+        "author": "Автор 4",
+        "date": "01.01.2000",
+        "link": "www.google.com",
+        "watched": "false"
+    },
+    {
+        "title": "",
+        "author": "Автор 5",
+        "date": "01.01.2000",
+        "link": "www.google.com",
+        "watched": "false"
+    },
+    {
+        "title": "Новость 2",
+        "author": "Автор 2",
+        "date": "02.01.2000",
+        "link": "www.google.com",
+        "watched": "false"
+    },
+    {
+        "title": "Новость 3",
+        "author": "Автор 3",
+        "date": "01.01.2000",
+        "link": "www.google.com",
+        "watched": "false"
+    },
+    {
+        "title": "Новость 4",
+        "author": "Автор 4",
+        "date": "01.01.2000",
+        "link": "www.google.com",
+        "watched": "false"
+    },
+    {
+        "title": "",
+        "author": "Автор 5",
+        "date": "01.01.2000",
+        "link": "www.google.com",
+        "watched": "false"
+    },
+    {
+        "title": "Новость 2",
+        "author": "Автор 2",
+        "date": "02.01.2000",
+        "link": "www.google.com",
+        "watched": "false"
+    },
+    {
+        "title": "Новость 3",
+        "author": "Автор 3",
+        "date": "01.01.2000",
+        "link": "www.google.com",
+        "watched": "false"
+    },
+    {
+        "title": "Новость 4",
+        "author": "Автор 4",
+        "date": "01.01.2000",
+        "link": "www.google.com",
+        "watched": "false"
+    },
+    {
+        "title": "",
+        "author": "Автор 5",
+        "date": "01.01.2000",
+        "link": "www.google.com",
+        "watched": "false"
+    }]
+}

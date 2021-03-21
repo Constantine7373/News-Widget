@@ -1,0 +1,39 @@
+// BASE
+$breakpoints: (    
+    "XS": 699px, 
+    "S": 1019px,
+    "M": 1340px
+) !default;
+
+$wrapperWidth: (   
+    "XS": 300px,
+    "S": 610px, 
+    "M": 930px,
+    "L": 1250px
+);
+
+// COLORS
+$color-black: #000;
+$color-white: #fff;
+
+// FONTS
+$font-arial: "Arial", sans-serif;
+$font-tahoma: "Tahoma", "Arial", sans-serif;
+$font-georgia: "Georgia", sans-serif;
+$font-tmr: "Times New Roman", sans-serif;
+$font-verdana: "Verdana", sans-serif;
+$font-courier: "Courier New", sans-serif;
+$font-trebuchet: "Trebuchet MS", sans-serif;
+$font-proximanovacond: 'Proxima Nova Condensed', ProximaNovaCond, 'Arial', sans-serif;
+
+// font-size
+$fs-l: 16px;
+$fs-m: 15px;
+$fs-s: 14px;
+$fs-xs: 13px;
+
+// line-height
+$lh-l: 1.2;
+$lh-m: 1.2;
+$lh-s: 1.2;
+$lh-xs: 1.2;

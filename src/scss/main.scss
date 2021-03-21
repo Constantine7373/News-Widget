@@ -1,0 +1,78 @@
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.widget {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    &__content {
+        position: absolute;
+        bottom: 0;
+        right: 50px;
+        box-sizing: border-box;
+        width: 300px;
+        max-height: 0;
+        overflow: hidden;
+        z-index: 1;
+        transition: max-height .3s ease;
+
+        &.active {
+            max-height: 50vh;
+            padding: 5px;
+            box-shadow: 0 0 2px 0 #000;
+            overflow: auto;
+
+        }
+    }
+
+    &__item {
+        position: relative;
+        padding: 20px 50px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        background: rgba(purple, 0.2);
+
+        &[data-viewed="true"]::before {
+            content: '\2705';
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            font-size: 0.5em;
+        }
+    }
+
+    &__icon {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        box-shadow: 0 0 5px 0 rgba(#000, 0.3);
+        background: url('../images/download.jpg') center / 60% auto no-repeat;
+        border-radius: 50%;
+        cursor: pointer;
+        z-index: 2;
+        transition: transform .2s ease;
+        z-index: 2;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        .counter {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            font-size: .8em;
+            line-height: 1;
+            padding: .1em;
+            color: #fff;
+            background: red;
+            border-radius: 50%;
+            border: 1px solid #000;
+        }
+    }
+}

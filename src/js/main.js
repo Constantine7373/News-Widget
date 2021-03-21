@@ -1,0 +1,1 @@
+let widget = new NewsWidget('.widget');
